@@ -9,11 +9,11 @@ case $1 in
 esac
 
 # Output
-# sh case.sh 2
+# sh case2.sh 2
 # Number of Lines: 3
 # File Name: file.txt
 # 1
 # 2
 # 3
-# ~$ sh case.sh 3
+# ~$ sh case2.sh 3
 # File Name: file.txt
