@@ -9,7 +9,7 @@ for (( i = 0; i < $n ; i++ ))
 do
 	for (( j = $i; j < $n; j++ ))
 		do
-		if [ ${A[$i]} -gt ${A[$j]}  ]; then
+		if [ ${A[$i]} -lt ${A[$j]}  ]; then
 			t=${A[$i]}
 			A[$i]=${A[$j]}
 			A[$j]=$t
@@ -34,9 +34,9 @@ Enter elements:
 2
 
 Sorted Array
-1
-2
-3
-5
 12
+5
+3
+2
+1
 '''
